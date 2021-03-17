@@ -1,0 +1,17 @@
+html,
+body {
+  margin: 0;
+  height: 100%;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 200px minmax(100px, auto) 300px;
+  height: 100%;
+  min-height: 600px;
+  overflow: auto;
+}
+
+.grid-container div {
+  height: 100%;
+}
